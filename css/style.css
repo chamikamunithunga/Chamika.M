@@ -10025,6 +10025,15 @@ textarea.form-control {
   margin: 20px 0; /* Optional: add some spacing around the section */
 }
 
+.badge-image1 {
+  display: block;
+  max-width: 20%; 
+  height: auto;
+  margin: 20px auto; 
+  border-radius: 10px;
+
+}
+
 .badge-image {
   width: 100px; 
   height: auto; 
@@ -10044,14 +10053,7 @@ textarea.form-control {
   letter-spacing: 1px; 
 }
 
-.badge-image1 {
-  display: block;
-  max-width: 20%; 
-  height: auto;
-  margin: 20px auto; 
-  border-radius: 10px;
 
-}
 
 
 
