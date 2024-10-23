@@ -10056,6 +10056,7 @@ textarea.form-control {
   background-color: #f9f9f9; 
   padding: 40px 20px; 
   text-align: center; 
+  background-color: #bcd5e8;
 }
 
 /* Heading Styles */
@@ -10092,7 +10093,7 @@ textarea.form-control {
 .badge-description h3 {
   font-size: 25px; 
   margin-bottom: 10px; /
-  color: black; 
+  color: white;
 }
 
 .badge-description p {
