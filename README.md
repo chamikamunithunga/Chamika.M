@@ -1,5 +1,10 @@
 ![Screenshot 2024-10-23 at 9 38 02 PM](https://github.com/user-attachments/assets/e30ce081-fa8f-477d-b81e-6433bbdb37a4)
 ![Screenshot 2024-10-23 at 9 38 15 PM](https://github.com/user-attachments/assets/16ae9122-f651-46c8-95f7-d4b91e609238)
+![Screenshot 2024-10-23 at 10 25 52 PM](https://github.com/user-attachments/assets/6a109f87-f777-4351-b9fe-60d40838286b)
+
+
+
+
 ## Welcome to My Portfolio
 
 I wanna take you on a journey through captivating digital landscapes, where creativity meets technology. As a skilled artisan in **HTML5**, **CSS**, and **JavaScript**, I bring a keen eye for detail and a passion for designing and developing stunning websites that go beyond the ordinary. My work fuses sleek design with seamless functionality, creating digital experiences that are both visually striking and user-friendly.
