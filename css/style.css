@@ -1,9 +1,4 @@
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9765,3 +9760,338 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+
+
+
+ /* PS SECSION */
+/* Header Section */
+.ps-header h1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  height: 20vh;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  font-size: 3.5rem;
+}
+
+.ps-header p {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #6610f2;
+}
+
+.ps-header h3 {
+  text-decoration: underline;
+  font-size: 2.25rem;
+  color: #6610f2;
+}
+
+/* Skills Section */
+#skills-section {
+  text-align: center;
+  padding: 10px;
+  background-color: #d5f998;
+}
+
+#skills-section img {
+  border-radius: 20px;
+  max-width: 100%; 
+  height: auto;
+  margin-top: 20px;
+}
+
+.skills-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+}
+
+.skill-card {
+  background: #270560;
+  border-radius: 45px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s;
+  width: 100%; 
+  max-width: 600px; 
+  height: auto;
+  margin: 0 auto; 
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+}
+
+.skill-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #6bd927;
+}
+
+.skill-image {
+  width: 100%; 
+  max-width: 550px;
+  height: auto; 
+  object-fit: cover;
+  margin: 15px 0;
+}
+
+.skill-description {
+  font-size: 0.9rem;
+  color: white;
+  margin-bottom: 15px;
+  padding: 0 10px; 
+}
+
+
+@media (max-width: 768px) {
+  .skills-wrapper {
+    grid-template-columns: 1fr; 
+  }
+
+  .skill-card {
+    max-width: 90%; 
+  }
+
+  .skill-card h2 {
+    font-size: 1.25rem;
+  }
+
+  .ps-header h1 {
+    font-size: 2.5rem; 
+  }
+
+  .ps-header p {
+    font-size: 1rem;
+  }
+
+  .ps-header h3 {
+    font-size: 1.75rem; 
+  }
+}
+
+@media (max-width: 480px) {
+ 
+  .skill-card {
+    width: 100%;
+  }
+
+  .skill-card h2 {
+    font-size: 1rem; 
+  }
+
+  .skill-description {
+    font-size: 0.8rem; 
+  }
+}
+
+/* certify*/
+
+/* Style for the Achievements section */
+#Achievements-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  padding: 40px 20px; 
+}
+
+#Achievements-section .head {
+  text-align: center;
+}
+
+#Achievements-section h2 {
+  font-size:4.5rem;
+  margin-bottom: 30px; 
+  font-weight: 800;
+  font-family:inherit;
+  font-style: inherit;
+  color: #16181b;
+  
+}
+
+.achievement-image {
+  display: block;
+  max-width: 40%; 
+  height: auto;
+  margin: 20px auto; 
+  border-radius: 10px;
+
+}
+
+
+
+@media (max-width: 768px) {
+  .achievement-image {
+    max-width: 70%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .achievement-image {
+    max-width: 90%; 
+  }
+
+  #Achievements-section h2 {
+    font-size: 2rem; 
+  }
+}
+
+
+
+
+
+/* Heading Styles */
+#Achievements-section h2 {
+  font-size: 35px; 
+  color: #2c3e50; 
+  margin-bottom: 30px; 
+}
+
+/* Grid Container Styles */
+.certificate-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+}
+
+/* Certificate Container Styles */
+.certificate-container {
+  background-color: #abbdcf; 
+  padding: 20px;
+  border-radius: 10px; 
+  border-color: black;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+}
+
+/* Image Styles */
+.certificate-image {
+  width: 100%; 
+  height: auto; 
+  border-radius: 5px; 
+}
+
+/* Description Styles */
+.description h2 {
+  font-size: 18px; 
+  margin-bottom: 10px; 
+  color: #032d57; 
+}
+
+.description p {
+  font-size: 16px; 
+  line-height: 1.6; 
+  color: #032d57; 
+}
+
+/* Optional: Media Query for Responsiveness */
+@media (max-width: 900px) {
+  .certificate-grid {
+      grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 600px) {
+  .certificate-grid {
+      grid-template-columns: 1fr; 
+  }
+
+  #Achievements-section {
+      padding: 20px; 
+  }
+}
+
+
+
+
+
+/* badges*/
+
+#Badges-section h2 {
+  font-size: 2rem; 
+  color: white; 
+  text-align: center;
+  margin-bottom: 20px; 
+  font-weight: bold;
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+}
+
+
+#Badges-section {
+  background-color: #f9f9f9; 
+  padding: 40px 20px; 
+  text-align: center; 
+}
+
+/* Heading Styles */
+#Badges-section h2 {
+  font-size: 38px; 
+  color: #2c3e50; 
+  margin-bottom: 30px; 
+}
+
+/* Grid Container Styles */
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+}
+
+/* Badge Container Styles */
+.badge-container {
+  background-color: #ed402d; 
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+  text-align: center; 
+}
+
+/* Badge Image Styles */
+.badge-image {
+  width: 100%; 
+  height: auto; 
+  border-radius: 5px; 
+}
+
+
+.badge-description h3 {
+  font-size: 25px; 
+  margin-bottom: 10px; /
+  color: black; 
+}
+
+.badge-description p {
+  font-size: 18px; 
+  line-height: 1.6; 
+  color: black; 
+}
+
+
+@media (max-width: 900px) {
+  .badge-grid {
+      grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 600px) {
+  .badge-grid {
+      grid-template-columns: 1fr; 
+  }
+
+  #Badges-section {
+      padding: 20px; 
+  }
+}
