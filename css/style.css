@@ -10208,33 +10208,43 @@ textarea.form-control {
 
 
 .hero {
-  overflow: hidden;
+    position: relative;
+    overflow: hidden; /* Prevent overflow outside the hero section */
 }
 
-.home-slider .slider-item {
-  height: 100vh; /* Full height for desktop */
+.home-slider {
+    display: flex; /* Allow flex display for sliding */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Enable snap scrolling */
+}
+
+.slider-item {
+    flex: none; /* Prevent flex items from shrinking */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full height for desktop */
+    scroll-snap-align: start; /* Align the start of each item */
 }
 
 @media (max-width: 768px) {
-  .home-slider .slider-item {
-    height: 70vh; /* Reduced height for mobile */
-  }
+    .slider-item {
+        height: 70vh; /* Reduced height for mobile */
+    }
 
-  .text {
-    padding: 20px; /* Add some padding for mobile */
-    text-align: center; /* Center text */
-  }
+    .text {
+        padding: 20px; /* Add some padding for mobile */
+        text-align: center; /* Center text */
+    }
 
-  .subheading {
-    font-size: 1.2em; /* Adjust font size */
-  }
+    .subheading {
+        font-size: 1.2em; /* Adjust font size */
+    }
 
-  h1 {
-    font-size: 1.5em; /* Adjust font size */
-  }
+    h1 {
+        font-size: 1.5em; /* Adjust font size */
+    }
 
-  .btn {
-    width: 100%; /* Full width buttons */
-    margin: 10px 0; /* Spacing between buttons */
-  }
+    .btn {
+        width: 100%; /* Full width buttons */
+        margin: 10px 0; /* Spacing between buttons */
+    }
 }
