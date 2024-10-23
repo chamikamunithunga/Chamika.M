@@ -9799,7 +9799,7 @@ textarea.form-control {
 #skills-section {
   text-align: center;
   padding: 10px;
-  background-color: #d5f998;
+  background: linear-gradient(135deg, #23e889, #e88923);
 }
 
 #skills-section img {
@@ -9966,6 +9966,7 @@ textarea.form-control {
   gap: 20px; 
 }
 
+
 /* Certificate Container Styles */
 .certificate-container {
   background-color: #abbdcf; 
@@ -9975,6 +9976,8 @@ textarea.form-control {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
   text-align: center;
 }
+
+
 
 /* Image Styles */
 .certificate-image {
@@ -10049,6 +10052,74 @@ textarea.form-control {
 }
 
 
+/* git side */
+
+
+
+
+
+.git-grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.git-container {
+  text-align: center;
+  width: 90%;
+}
+
+.git-grid-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 20px;
+}
+
+.git-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 
+              0 6px 20px rgba(0, 0, 0, 0.2);
+}
+.git-container h1 {
+  font-size: 35px; 
+  font-weight: bold; 
+  background: linear-gradient(45deg, #1927ec, #00c6ff); 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  margin-bottom: 20px; 
+  text-align: center; 
+}
+
+.github-link {
+  display: inline-block;
+  margin-bottom: 20px; 
+  text-align: center;
+}
+
+.github-icon {
+  width: 200px; 
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease; 
+  border-radius: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 
+              0 6px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.github-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4), 
+              0 10px 30px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+
+
+
 
 
 
@@ -10056,7 +10127,7 @@ textarea.form-control {
   background-color: #f9f9f9; 
   padding: 40px 20px; 
   text-align: center; 
-  background-color: #bcd5e8;
+  background: linear-gradient(135deg, #3de0a7, #4f9fe0);
 }
 
 /* Heading Styles */
