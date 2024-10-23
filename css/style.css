@@ -10021,8 +10021,8 @@ textarea.form-control {
 
 
 #Badges-section {
-  text-align: center; /* Center the text and inline elements in the section */
-  margin: 20px 0; /* Optional: add some spacing around the section */
+  text-align: center; 
+  margin: 20px 0; 
 }
 
 
@@ -10092,8 +10092,8 @@ textarea.form-control {
 
 .badge-description h3 {
   font-size: 25px; 
-  margin-bottom: 10px; /
-  color: white;
+  margin-bottom: 10px; 
+  color: white; 
 }
 
 .badge-description p {
