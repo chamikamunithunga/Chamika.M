@@ -10189,3 +10189,52 @@ textarea.form-control {
       padding: 20px; 
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero {
+  overflow: hidden;
+}
+
+.home-slider .slider-item {
+  height: 100vh; /* Full height for desktop */
+}
+
+@media (max-width: 768px) {
+  .home-slider .slider-item {
+    height: 70vh; /* Reduced height for mobile */
+  }
+
+  .text {
+    padding: 20px; /* Add some padding for mobile */
+    text-align: center; /* Center text */
+  }
+
+  .subheading {
+    font-size: 1.2em; /* Adjust font size */
+  }
+
+  h1 {
+    font-size: 1.5em; /* Adjust font size */
+  }
+
+  .btn {
+    width: 100%; /* Full width buttons */
+    margin: 10px 0; /* Spacing between buttons */
+  }
+}
