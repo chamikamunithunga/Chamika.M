@@ -10019,6 +10019,21 @@ textarea.form-control {
 
 /* badges*/
 
+
+#Badges-section {
+  text-align: center; /* Center the text and inline elements in the section */
+  margin: 20px 0; /* Optional: add some spacing around the section */
+}
+
+.badge-image {
+  width: 100px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+
+
 #Badges-section h2 {
   font-size: 2rem; 
   color: white; 
@@ -10028,6 +10043,18 @@ textarea.form-control {
   text-transform: uppercase; 
   letter-spacing: 1px; 
 }
+
+.badge-image1 {
+  display: block;
+  max-width: 20%; 
+  height: auto;
+  margin: 20px auto; 
+  border-radius: 10px;
+
+}
+
+
+
 
 
 #Badges-section {
